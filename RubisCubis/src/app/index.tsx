@@ -15,7 +15,7 @@ import { initCube, printCube } from './cube_rep';
 
 export default function HomeScreen() {
   const cube:BigInt64Array = initCube()
-  console.log(cube);  
+  printCube(cube)
   return (
     <ThemedView style={styles.container}>
       <SafeAreaView style={styles.safeArea}>
